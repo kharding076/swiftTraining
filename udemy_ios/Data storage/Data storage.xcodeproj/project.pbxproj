@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4C25D11B7A23DA00AA3EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C25D01B7A23DA00AA3EF3 /* AppDelegate.swift */; };
+		EC4C25D31B7A23DA00AA3EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C25D21B7A23DA00AA3EF3 /* ViewController.swift */; };
+		EC4C25D61B7A23DA00AA3EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4C25D41B7A23DA00AA3EF3 /* Main.storyboard */; };
+		EC4C25D81B7A23DA00AA3EF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4C25D71B7A23DA00AA3EF3 /* Images.xcassets */; };
+		EC4C25DB1B7A23DA00AA3EF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4C25D91B7A23DA00AA3EF3 /* LaunchScreen.xib */; };
+		EC4C25E71B7A23DA00AA3EF3 /* Data_storageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4C25E61B7A23DA00AA3EF3 /* Data_storageTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4C25E11B7A23DA00AA3EF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4C25C31B7A23DA00AA3EF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4C25CA1B7A23DA00AA3EF3;
+			remoteInfo = "Data storage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4C25CB1B7A23DA00AA3EF3 /* Data storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4C25CF1B7A23DA00AA3EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4C25D01B7A23DA00AA3EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC4C25D21B7A23DA00AA3EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC4C25D51B7A23DA00AA3EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC4C25D71B7A23DA00AA3EF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC4C25DA1B7A23DA00AA3EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC4C25E01B7A23DA00AA3EF3 /* Data storageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data storageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4C25E51B7A23DA00AA3EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4C25E61B7A23DA00AA3EF3 /* Data_storageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_storageTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4C25C81B7A23DA00AA3EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4C25DD1B7A23DA00AA3EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC4C25C21B7A23DA00AA3EF3 = {
+			isa = PBXGroup;
+			children = (
+				EC4C25CD1B7A23DA00AA3EF3 /* Data storage */,
+				EC4C25E31B7A23DA00AA3EF3 /* Data storageTests */,
+				EC4C25CC1B7A23DA00AA3EF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4C25CC1B7A23DA00AA3EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C25CB1B7A23DA00AA3EF3 /* Data storage.app */,
+				EC4C25E01B7A23DA00AA3EF3 /* Data storageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC4C25CD1B7A23DA00AA3EF3 /* Data storage */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C25D01B7A23DA00AA3EF3 /* AppDelegate.swift */,
+				EC4C25D21B7A23DA00AA3EF3 /* ViewController.swift */,
+				EC4C25D41B7A23DA00AA3EF3 /* Main.storyboard */,
+				EC4C25D71B7A23DA00AA3EF3 /* Images.xcassets */,
+				EC4C25D91B7A23DA00AA3EF3 /* LaunchScreen.xib */,
+				EC4C25CE1B7A23DA00AA3EF3 /* Supporting Files */,
+			);
+			path = "Data storage";
+			sourceTree = "<group>";
+		};
+		EC4C25CE1B7A23DA00AA3EF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C25CF1B7A23DA00AA3EF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC4C25E31B7A23DA00AA3EF3 /* Data storageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C25E61B7A23DA00AA3EF3 /* Data_storageTests.swift */,
+				EC4C25E41B7A23DA00AA3EF3 /* Supporting Files */,
+			);
+			path = "Data storageTests";
+			sourceTree = "<group>";
+		};
+		EC4C25E41B7A23DA00AA3EF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C25E51B7A23DA00AA3EF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4C25CA1B7A23DA00AA3EF3 /* Data storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4C25EA1B7A23DA00AA3EF3 /* Build configuration list for PBXNativeTarget "Data storage" */;
+			buildPhases = (
+				EC4C25C71B7A23DA00AA3EF3 /* Sources */,
+				EC4C25C81B7A23DA00AA3EF3 /* Frameworks */,
+				EC4C25C91B7A23DA00AA3EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Data storage";
+			productName = "Data storage";
+			productReference = EC4C25CB1B7A23DA00AA3EF3 /* Data storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4C25DF1B7A23DA00AA3EF3 /* Data storageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4C25ED1B7A23DA00AA3EF3 /* Build configuration list for PBXNativeTarget "Data storageTests" */;
+			buildPhases = (
+				EC4C25DC1B7A23DA00AA3EF3 /* Sources */,
+				EC4C25DD1B7A23DA00AA3EF3 /* Frameworks */,
+				EC4C25DE1B7A23DA00AA3EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4C25E21B7A23DA00AA3EF3 /* PBXTargetDependency */,
+			);
+			name = "Data storageTests";
+			productName = "Data storageTests";
+			productReference = EC4C25E01B7A23DA00AA3EF3 /* Data storageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4C25C31B7A23DA00AA3EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kyle Harding";
+				TargetAttributes = {
+					EC4C25CA1B7A23DA00AA3EF3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC4C25DF1B7A23DA00AA3EF3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC4C25CA1B7A23DA00AA3EF3;
+					};
+				};
+			};
+			buildConfigurationList = EC4C25C61B7A23DA00AA3EF3 /* Build configuration list for PBXProject "Data storage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC4C25C21B7A23DA00AA3EF3;
+			productRefGroup = EC4C25CC1B7A23DA00AA3EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4C25CA1B7A23DA00AA3EF3 /* Data storage */,
+				EC4C25DF1B7A23DA00AA3EF3 /* Data storageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4C25C91B7A23DA00AA3EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4C25D61B7A23DA00AA3EF3 /* Main.storyboard in Resources */,
+				EC4C25DB1B7A23DA00AA3EF3 /* LaunchScreen.xib in Resources */,
+				EC4C25D81B7A23DA00AA3EF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4C25DE1B7A23DA00AA3EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4C25C71B7A23DA00AA3EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4C25D31B7A23DA00AA3EF3 /* ViewController.swift in Sources */,
+				EC4C25D11B7A23DA00AA3EF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4C25DC1B7A23DA00AA3EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4C25E71B7A23DA00AA3EF3 /* Data_storageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC4C25E21B7A23DA00AA3EF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4C25CA1B7A23DA00AA3EF3 /* Data storage */;
+			targetProxy = EC4C25E11B7A23DA00AA3EF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC4C25D41B7A23DA00AA3EF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4C25D51B7A23DA00AA3EF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC4C25D91B7A23DA00AA3EF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC4C25DA1B7A23DA00AA3EF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC4C25E81B7A23DA00AA3EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC4C25E91B7A23DA00AA3EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC4C25EB1B7A23DA00AA3EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Data storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC4C25EC1B7A23DA00AA3EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Data storage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC4C25EE1B7A23DA00AA3EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Data storageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Data storage.app/Data storage";
+			};
+			name = Debug;
+		};
+		EC4C25EF1B7A23DA00AA3EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Data storageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Data storage.app/Data storage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4C25C61B7A23DA00AA3EF3 /* Build configuration list for PBXProject "Data storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4C25E81B7A23DA00AA3EF3 /* Debug */,
+				EC4C25E91B7A23DA00AA3EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4C25EA1B7A23DA00AA3EF3 /* Build configuration list for PBXNativeTarget "Data storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4C25EB1B7A23DA00AA3EF3 /* Debug */,
+				EC4C25EC1B7A23DA00AA3EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC4C25ED1B7A23DA00AA3EF3 /* Build configuration list for PBXNativeTarget "Data storageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4C25EE1B7A23DA00AA3EF3 /* Debug */,
+				EC4C25EF1B7A23DA00AA3EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4C25C31B7A23DA00AA3EF3 /* Project object */;
+}

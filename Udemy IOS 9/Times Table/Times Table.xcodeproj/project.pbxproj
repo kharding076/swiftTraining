@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC75125D1B8EA1FE00B01F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75125C1B8EA1FE00B01F98 /* AppDelegate.swift */; };
+		EC75125F1B8EA1FE00B01F98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75125E1B8EA1FE00B01F98 /* ViewController.swift */; };
+		EC7512621B8EA1FE00B01F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7512601B8EA1FE00B01F98 /* Main.storyboard */; };
+		EC7512651B8EA1FE00B01F98 /* Times_Table.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC7512631B8EA1FE00B01F98 /* Times_Table.xcdatamodeld */; };
+		EC7512671B8EA1FE00B01F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7512661B8EA1FE00B01F98 /* Assets.xcassets */; };
+		EC75126A1B8EA1FE00B01F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7512681B8EA1FE00B01F98 /* LaunchScreen.storyboard */; };
+		EC7512751B8EA1FE00B01F98 /* Times_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7512741B8EA1FE00B01F98 /* Times_TableTests.swift */; };
+		EC7512801B8EA1FE00B01F98 /* Times_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75127F1B8EA1FE00B01F98 /* Times_TableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7512711B8EA1FE00B01F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7512511B8EA1FE00B01F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7512581B8EA1FE00B01F98;
+			remoteInfo = "Times Table";
+		};
+		EC75127C1B8EA1FE00B01F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7512511B8EA1FE00B01F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7512581B8EA1FE00B01F98;
+			remoteInfo = "Times Table";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7512591B8EA1FE00B01F98 /* Times Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Times Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC75125C1B8EA1FE00B01F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC75125E1B8EA1FE00B01F98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC7512611B8EA1FE00B01F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7512641B8EA1FE00B01F98 /* Times_Table.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Times_Table.xcdatamodel; sourceTree = "<group>"; };
+		EC7512661B8EA1FE00B01F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7512691B8EA1FE00B01F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC75126B1B8EA1FE00B01F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7512701B8EA1FE00B01F98 /* Times TableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Times TableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7512741B8EA1FE00B01F98 /* Times_TableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Times_TableTests.swift; sourceTree = "<group>"; };
+		EC7512761B8EA1FE00B01F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC75127B1B8EA1FE00B01F98 /* Times TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Times TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC75127F1B8EA1FE00B01F98 /* Times_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Times_TableUITests.swift; sourceTree = "<group>"; };
+		EC7512811B8EA1FE00B01F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7512561B8EA1FE00B01F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75126D1B8EA1FE00B01F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7512781B8EA1FE00B01F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7512501B8EA1FE00B01F98 = {
+			isa = PBXGroup;
+			children = (
+				EC75125B1B8EA1FE00B01F98 /* Times Table */,
+				EC7512731B8EA1FE00B01F98 /* Times TableTests */,
+				EC75127E1B8EA1FE00B01F98 /* Times TableUITests */,
+				EC75125A1B8EA1FE00B01F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC75125A1B8EA1FE00B01F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7512591B8EA1FE00B01F98 /* Times Table.app */,
+				EC7512701B8EA1FE00B01F98 /* Times TableTests.xctest */,
+				EC75127B1B8EA1FE00B01F98 /* Times TableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC75125B1B8EA1FE00B01F98 /* Times Table */ = {
+			isa = PBXGroup;
+			children = (
+				EC75125C1B8EA1FE00B01F98 /* AppDelegate.swift */,
+				EC75125E1B8EA1FE00B01F98 /* ViewController.swift */,
+				EC7512601B8EA1FE00B01F98 /* Main.storyboard */,
+				EC7512661B8EA1FE00B01F98 /* Assets.xcassets */,
+				EC7512681B8EA1FE00B01F98 /* LaunchScreen.storyboard */,
+				EC75126B1B8EA1FE00B01F98 /* Info.plist */,
+				EC7512631B8EA1FE00B01F98 /* Times_Table.xcdatamodeld */,
+			);
+			path = "Times Table";
+			sourceTree = "<group>";
+		};
+		EC7512731B8EA1FE00B01F98 /* Times TableTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7512741B8EA1FE00B01F98 /* Times_TableTests.swift */,
+				EC7512761B8EA1FE00B01F98 /* Info.plist */,
+			);
+			path = "Times TableTests";
+			sourceTree = "<group>";
+		};
+		EC75127E1B8EA1FE00B01F98 /* Times TableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC75127F1B8EA1FE00B01F98 /* Times_TableUITests.swift */,
+				EC7512811B8EA1FE00B01F98 /* Info.plist */,
+			);
+			path = "Times TableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7512581B8EA1FE00B01F98 /* Times Table */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7512841B8EA1FE00B01F98 /* Build configuration list for PBXNativeTarget "Times Table" */;
+			buildPhases = (
+				EC7512551B8EA1FE00B01F98 /* Sources */,
+				EC7512561B8EA1FE00B01F98 /* Frameworks */,
+				EC7512571B8EA1FE00B01F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Times Table";
+			productName = "Times Table";
+			productReference = EC7512591B8EA1FE00B01F98 /* Times Table.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC75126F1B8EA1FE00B01F98 /* Times TableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7512871B8EA1FE00B01F98 /* Build configuration list for PBXNativeTarget "Times TableTests" */;
+			buildPhases = (
+				EC75126C1B8EA1FE00B01F98 /* Sources */,
+				EC75126D1B8EA1FE00B01F98 /* Frameworks */,
+				EC75126E1B8EA1FE00B01F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7512721B8EA1FE00B01F98 /* PBXTargetDependency */,
+			);
+			name = "Times TableTests";
+			productName = "Times TableTests";
+			productReference = EC7512701B8EA1FE00B01F98 /* Times TableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC75127A1B8EA1FE00B01F98 /* Times TableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC75128A1B8EA1FE00B01F98 /* Build configuration list for PBXNativeTarget "Times TableUITests" */;
+			buildPhases = (
+				EC7512771B8EA1FE00B01F98 /* Sources */,
+				EC7512781B8EA1FE00B01F98 /* Frameworks */,
+				EC7512791B8EA1FE00B01F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC75127D1B8EA1FE00B01F98 /* PBXTargetDependency */,
+			);
+			name = "Times TableUITests";
+			productName = "Times TableUITests";
+			productReference = EC75127B1B8EA1FE00B01F98 /* Times TableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7512511B8EA1FE00B01F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kyle Harding";
+				TargetAttributes = {
+					EC7512581B8EA1FE00B01F98 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EC75126F1B8EA1FE00B01F98 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC7512581B8EA1FE00B01F98;
+					};
+					EC75127A1B8EA1FE00B01F98 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EC7512581B8EA1FE00B01F98;
+					};
+				};
+			};
+			buildConfigurationList = EC7512541B8EA1FE00B01F98 /* Build configuration list for PBXProject "Times Table" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7512501B8EA1FE00B01F98;
+			productRefGroup = EC75125A1B8EA1FE00B01F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7512581B8EA1FE00B01F98 /* Times Table */,
+				EC75126F1B8EA1FE00B01F98 /* Times TableTests */,
+				EC75127A1B8EA1FE00B01F98 /* Times TableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7512571B8EA1FE00B01F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75126A1B8EA1FE00B01F98 /* LaunchScreen.storyboard in Resources */,
+				EC7512671B8EA1FE00B01F98 /* Assets.xcassets in Resources */,
+				EC7512621B8EA1FE00B01F98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75126E1B8EA1FE00B01F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7512791B8EA1FE00B01F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7512551B8EA1FE00B01F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75125F1B8EA1FE00B01F98 /* ViewController.swift in Sources */,
+				EC7512651B8EA1FE00B01F98 /* Times_Table.xcdatamodeld in Sources */,
+				EC75125D1B8EA1FE00B01F98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75126C1B8EA1FE00B01F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7512751B8EA1FE00B01F98 /* Times_TableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7512771B8EA1FE00B01F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7512801B8EA1FE00B01F98 /* Times_TableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7512721B8EA1FE00B01F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7512581B8EA1FE00B01F98 /* Times Table */;
+			targetProxy = EC7512711B8EA1FE00B01F98 /* PBXContainerItemProxy */;
+		};
+		EC75127D1B8EA1FE00B01F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7512581B8EA1FE00B01F98 /* Times Table */;
+			targetProxy = EC75127C1B8EA1FE00B01F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7512601B8EA1FE00B01F98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7512611B8EA1FE00B01F98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7512681B8EA1FE00B01F98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7512691B8EA1FE00B01F98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7512821B8EA1FE00B01F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7512831B8EA1FE00B01F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7512851B8EA1FE00B01F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Times Table/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harding.Times-Table";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC7512861B8EA1FE00B01F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Times Table/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harding.Times-Table";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC7512881B8EA1FE00B01F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Times TableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harding.Times-TableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Times Table.app/Times Table";
+			};
+			name = Debug;
+		};
+		EC7512891B8EA1FE00B01F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Times TableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harding.Times-TableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Times Table.app/Times Table";
+			};
+			name = Release;
+		};
+		EC75128B1B8EA1FE00B01F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Times TableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harding.Times-TableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Times Table";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC75128C1B8EA1FE00B01F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Times TableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harding.Times-TableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Times Table";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7512541B8EA1FE00B01F98 /* Build configuration list for PBXProject "Times Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7512821B8EA1FE00B01F98 /* Debug */,
+				EC7512831B8EA1FE00B01F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7512841B8EA1FE00B01F98 /* Build configuration list for PBXNativeTarget "Times Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7512851B8EA1FE00B01F98 /* Debug */,
+				EC7512861B8EA1FE00B01F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7512871B8EA1FE00B01F98 /* Build configuration list for PBXNativeTarget "Times TableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7512881B8EA1FE00B01F98 /* Debug */,
+				EC7512891B8EA1FE00B01F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC75128A1B8EA1FE00B01F98 /* Build configuration list for PBXNativeTarget "Times TableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75128B1B8EA1FE00B01F98 /* Debug */,
+				EC75128C1B8EA1FE00B01F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC7512631B8EA1FE00B01F98 /* Times_Table.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC7512641B8EA1FE00B01F98 /* Times_Table.xcdatamodel */,
+			);
+			currentVersion = EC7512641B8EA1FE00B01F98 /* Times_Table.xcdatamodel */;
+			path = Times_Table.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC7512511B8EA1FE00B01F98 /* Project object */;
+}

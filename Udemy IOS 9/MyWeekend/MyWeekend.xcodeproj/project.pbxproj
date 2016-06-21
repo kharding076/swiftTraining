@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2B0C7D1CAD566B00253917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B0C7C1CAD566B00253917 /* AppDelegate.swift */; };
+		EC2B0C7F1CAD566B00253917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B0C7E1CAD566B00253917 /* ViewController.swift */; };
+		EC2B0C821CAD566B00253917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2B0C801CAD566B00253917 /* Main.storyboard */; };
+		EC2B0C851CAD566B00253917 /* MyWeekend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2B0C831CAD566B00253917 /* MyWeekend.xcdatamodeld */; };
+		EC2B0C871CAD566B00253917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2B0C861CAD566B00253917 /* Assets.xcassets */; };
+		EC2B0C8A1CAD566B00253917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC2B0C881CAD566B00253917 /* LaunchScreen.storyboard */; };
+		EC2B0C951CAD566B00253917 /* MyWeekendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B0C941CAD566B00253917 /* MyWeekendTests.swift */; };
+		EC2B0CA01CAD566B00253917 /* MyWeekendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2B0C9F1CAD566B00253917 /* MyWeekendUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC2B0C911CAD566B00253917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2B0C711CAD566B00253917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2B0C781CAD566B00253917;
+			remoteInfo = MyWeekend;
+		};
+		EC2B0C9C1CAD566B00253917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC2B0C711CAD566B00253917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC2B0C781CAD566B00253917;
+			remoteInfo = MyWeekend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC2B0C791CAD566B00253917 /* MyWeekend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeekend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2B0C7C1CAD566B00253917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC2B0C7E1CAD566B00253917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2B0C811CAD566B00253917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC2B0C841CAD566B00253917 /* MyWeekend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyWeekend.xcdatamodel; sourceTree = "<group>"; };
+		EC2B0C861CAD566B00253917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC2B0C891CAD566B00253917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC2B0C8B1CAD566B00253917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2B0C901CAD566B00253917 /* MyWeekendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeekendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2B0C941CAD566B00253917 /* MyWeekendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeekendTests.swift; sourceTree = "<group>"; };
+		EC2B0C961CAD566B00253917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC2B0C9B1CAD566B00253917 /* MyWeekendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeekendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2B0C9F1CAD566B00253917 /* MyWeekendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWeekendUITests.swift; sourceTree = "<group>"; };
+		EC2B0CA11CAD566B00253917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC2B0C761CAD566B00253917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2B0C8D1CAD566B00253917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2B0C981CAD566B00253917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC2B0C701CAD566B00253917 = {
+			isa = PBXGroup;
+			children = (
+				EC2B0C7B1CAD566B00253917 /* MyWeekend */,
+				EC2B0C931CAD566B00253917 /* MyWeekendTests */,
+				EC2B0C9E1CAD566B00253917 /* MyWeekendUITests */,
+				EC2B0C7A1CAD566B00253917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2B0C7A1CAD566B00253917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC2B0C791CAD566B00253917 /* MyWeekend.app */,
+				EC2B0C901CAD566B00253917 /* MyWeekendTests.xctest */,
+				EC2B0C9B1CAD566B00253917 /* MyWeekendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC2B0C7B1CAD566B00253917 /* MyWeekend */ = {
+			isa = PBXGroup;
+			children = (
+				EC2B0C7C1CAD566B00253917 /* AppDelegate.swift */,
+				EC2B0C7E1CAD566B00253917 /* ViewController.swift */,
+				EC2B0C801CAD566B00253917 /* Main.storyboard */,
+				EC2B0C861CAD566B00253917 /* Assets.xcassets */,
+				EC2B0C881CAD566B00253917 /* LaunchScreen.storyboard */,
+				EC2B0C8B1CAD566B00253917 /* Info.plist */,
+				EC2B0C831CAD566B00253917 /* MyWeekend.xcdatamodeld */,
+			);
+			path = MyWeekend;
+			sourceTree = "<group>";
+		};
+		EC2B0C931CAD566B00253917 /* MyWeekendTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2B0C941CAD566B00253917 /* MyWeekendTests.swift */,
+				EC2B0C961CAD566B00253917 /* Info.plist */,
+			);
+			path = MyWeekendTests;
+			sourceTree = "<group>";
+		};
+		EC2B0C9E1CAD566B00253917 /* MyWeekendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC2B0C9F1CAD566B00253917 /* MyWeekendUITests.swift */,
+				EC2B0CA11CAD566B00253917 /* Info.plist */,
+			);
+			path = MyWeekendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC2B0C781CAD566B00253917 /* MyWeekend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2B0CA41CAD566B00253917 /* Build configuration list for PBXNativeTarget "MyWeekend" */;
+			buildPhases = (
+				EC2B0C751CAD566B00253917 /* Sources */,
+				EC2B0C761CAD566B00253917 /* Frameworks */,
+				EC2B0C771CAD566B00253917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWeekend;
+			productName = MyWeekend;
+			productReference = EC2B0C791CAD566B00253917 /* MyWeekend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC2B0C8F1CAD566B00253917 /* MyWeekendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2B0CA71CAD566B00253917 /* Build configuration list for PBXNativeTarget "MyWeekendTests" */;
+			buildPhases = (
+				EC2B0C8C1CAD566B00253917 /* Sources */,
+				EC2B0C8D1CAD566B00253917 /* Frameworks */,
+				EC2B0C8E1CAD566B00253917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2B0C921CAD566B00253917 /* PBXTargetDependency */,
+			);
+			name = MyWeekendTests;
+			productName = MyWeekendTests;
+			productReference = EC2B0C901CAD566B00253917 /* MyWeekendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC2B0C9A1CAD566B00253917 /* MyWeekendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC2B0CAA1CAD566B00253917 /* Build configuration list for PBXNativeTarget "MyWeekendUITests" */;
+			buildPhases = (
+				EC2B0C971CAD566B00253917 /* Sources */,
+				EC2B0C981CAD566B00253917 /* Frameworks */,
+				EC2B0C991CAD566B00253917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC2B0C9D1CAD566B00253917 /* PBXTargetDependency */,
+			);
+			name = MyWeekendUITests;
+			productName = MyWeekendUITests;
+			productReference = EC2B0C9B1CAD566B00253917 /* MyWeekendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC2B0C711CAD566B00253917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyle Harding";
+				TargetAttributes = {
+					EC2B0C781CAD566B00253917 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EC2B0C8F1CAD566B00253917 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EC2B0C781CAD566B00253917;
+					};
+					EC2B0C9A1CAD566B00253917 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EC2B0C781CAD566B00253917;
+					};
+				};
+			};
+			buildConfigurationList = EC2B0C741CAD566B00253917 /* Build configuration list for PBXProject "MyWeekend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC2B0C701CAD566B00253917;
+			productRefGroup = EC2B0C7A1CAD566B00253917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC2B0C781CAD566B00253917 /* MyWeekend */,
+				EC2B0C8F1CAD566B00253917 /* MyWeekendTests */,
+				EC2B0C9A1CAD566B00253917 /* MyWeekendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC2B0C771CAD566B00253917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2B0C8A1CAD566B00253917 /* LaunchScreen.storyboard in Resources */,
+				EC2B0C871CAD566B00253917 /* Assets.xcassets in Resources */,
+				EC2B0C821CAD566B00253917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2B0C8E1CAD566B00253917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2B0C991CAD566B00253917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC2B0C751CAD566B00253917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2B0C851CAD566B00253917 /* MyWeekend.xcdatamodeld in Sources */,
+				EC2B0C7F1CAD566B00253917 /* ViewController.swift in Sources */,
+				EC2B0C7D1CAD566B00253917 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2B0C8C1CAD566B00253917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2B0C951CAD566B00253917 /* MyWeekendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2B0C971CAD566B00253917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2B0CA01CAD566B00253917 /* MyWeekendUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC2B0C921CAD566B00253917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2B0C781CAD566B00253917 /* MyWeekend */;
+			targetProxy = EC2B0C911CAD566B00253917 /* PBXContainerItemProxy */;
+		};
+		EC2B0C9D1CAD566B00253917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC2B0C781CAD566B00253917 /* MyWeekend */;
+			targetProxy = EC2B0C9C1CAD566B00253917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC2B0C801CAD566B00253917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2B0C811CAD566B00253917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC2B0C881CAD566B00253917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC2B0C891CAD566B00253917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC2B0CA21CAD566B00253917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC2B0CA31CAD566B00253917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC2B0CA51CAD566B00253917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyWeekend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harding..MyWeekend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC2B0CA61CAD566B00253917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyWeekend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harding..MyWeekend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC2B0CA81CAD566B00253917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWeekendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harding..MyWeekendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWeekend.app/MyWeekend";
+			};
+			name = Debug;
+		};
+		EC2B0CA91CAD566B00253917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyWeekendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harding..MyWeekendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyWeekend.app/MyWeekend";
+			};
+			name = Release;
+		};
+		EC2B0CAB1CAD566B00253917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWeekendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harding..MyWeekendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWeekend;
+			};
+			name = Debug;
+		};
+		EC2B0CAC1CAD566B00253917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyWeekendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harding..MyWeekendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyWeekend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC2B0C741CAD566B00253917 /* Build configuration list for PBXProject "MyWeekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2B0CA21CAD566B00253917 /* Debug */,
+				EC2B0CA31CAD566B00253917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC2B0CA41CAD566B00253917 /* Build configuration list for PBXNativeTarget "MyWeekend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2B0CA51CAD566B00253917 /* Debug */,
+				EC2B0CA61CAD566B00253917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2B0CA71CAD566B00253917 /* Build configuration list for PBXNativeTarget "MyWeekendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2B0CA81CAD566B00253917 /* Debug */,
+				EC2B0CA91CAD566B00253917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC2B0CAA1CAD566B00253917 /* Build configuration list for PBXNativeTarget "MyWeekendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC2B0CAB1CAD566B00253917 /* Debug */,
+				EC2B0CAC1CAD566B00253917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC2B0C831CAD566B00253917 /* MyWeekend.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC2B0C841CAD566B00253917 /* MyWeekend.xcdatamodel */,
+			);
+			currentVersion = EC2B0C841CAD566B00253917 /* MyWeekend.xcdatamodel */;
+			path = MyWeekend.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC2B0C711CAD566B00253917 /* Project object */;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cat_Years" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Calculate Cats Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56o-Ns-Exj">
+                                <rect key="frame" x="20" y="28" width="280" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qaN-75-Xau">
+                                <rect key="frame" x="104" y="92" width="115" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URz-1q-9Lf">
+                                <rect key="frame" x="128" y="130" width="66" height="30"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FG3-0p-qA1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oL-De-d8C">
+                                <rect key="frame" x="104" y="168" width="115" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="v3v-8P-NEI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat4.png" translatesAutoresizingMaskIntoConstraints="NO" id="eEt-uu-AiK">
+                                <rect key="frame" x="51" y="194" width="220" height="180"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="URz-1q-9Lf" secondAttribute="trailing" constant="106" id="120-gr-BuR"/>
+                            <constraint firstItem="3oL-De-d8C" firstAttribute="top" secondItem="URz-1q-9Lf" secondAttribute="bottom" constant="8" symbolic="YES" id="6ld-xp-H9X"/>
+                            <constraint firstItem="56o-Ns-Exj" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8r9-Ud-458"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qaN-75-Xau" secondAttribute="trailing" constant="85" id="Bwf-EE-hcZ"/>
+                            <constraint firstItem="3oL-De-d8C" firstAttribute="leading" secondItem="qaN-75-Xau" secondAttribute="leading" id="UJc-m5-uBH"/>
+                            <constraint firstItem="56o-Ns-Exj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="V7U-qX-BuU"/>
+                            <constraint firstItem="qaN-75-Xau" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="92" id="b7f-G9-irU"/>
+                            <constraint firstItem="URz-1q-9Lf" firstAttribute="top" secondItem="qaN-75-Xau" secondAttribute="bottom" constant="8" symbolic="YES" id="brh-FB-hZq"/>
+                            <constraint firstItem="56o-Ns-Exj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fzI-kV-fAy"/>
+                            <constraint firstItem="qaN-75-Xau" firstAttribute="top" secondItem="56o-Ns-Exj" secondAttribute="bottom" constant="8" symbolic="YES" id="gV9-rD-Ppg"/>
+                            <constraint firstItem="3oL-De-d8C" firstAttribute="trailing" secondItem="qaN-75-Xau" secondAttribute="trailing" id="hSP-oZ-1ZK"/>
+                            <constraint firstItem="URz-1q-9Lf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="108" id="mJg-55-1rJ"/>
+                            <constraint firstItem="qaN-75-Xau" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="88" id="t6u-Yh-W8Q"/>
+                            <constraint firstItem="qaN-75-Xau" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="84" id="wh3-lx-ZLr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qaN-75-Xau" secondAttribute="trailing" constant="81" id="znJ-vp-RcQ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="lblCatYears" destination="3oL-De-d8C" id="PTP-88-v1U"/>
+                        <outlet property="txtYears" destination="qaN-75-Xau" id="wmw-gK-BuQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="354"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cat4.png" width="500" height="491"/>
+    </resources>
+</document>

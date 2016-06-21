@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Whats_the_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="asf-92-bbZ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="What's the Weather" id="zKC-r5-HLx"/>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QWL-ct-Thj">
+                                <rect key="frame" x="20" y="124" width="280" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter a city" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEf-XE-a8E">
+                                <rect key="frame" x="87" y="95" width="151" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJC-lc-mcj">
+                                <rect key="frame" x="115" y="162" width="96" height="30"/>
+                                <state key="normal" title="Find Forecast"/>
+                                <connections>
+                                    <action selector="findForecast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IbH-A1-giS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd7-dF-pDB">
+                                <rect key="frame" x="20" y="200" width="280" height="167"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QWL-ct-Thj" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4J4-c0-p3O"/>
+                            <constraint firstItem="QWL-ct-Thj" firstAttribute="top" secondItem="YEf-XE-a8E" secondAttribute="bottom" constant="8" id="67Z-v2-xLz"/>
+                            <constraint firstItem="asf-92-bbZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9Va-ny-dPk"/>
+                            <constraint firstItem="NJC-lc-mcj" firstAttribute="top" secondItem="QWL-ct-Thj" secondAttribute="bottom" constant="8" id="Ffg-qR-WlR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YEf-XE-a8E" secondAttribute="trailing" constant="62" id="M6O-9g-tyl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NJC-lc-mcj" secondAttribute="trailing" constant="89" id="Wma-8v-VbZ"/>
+                            <constraint firstItem="YEf-XE-a8E" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="67" id="bcE-mF-t9E"/>
+                            <constraint firstItem="NJC-lc-mcj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="95" id="d0U-6M-C06"/>
+                            <constraint firstItem="asf-92-bbZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="dTf-KH-3KR"/>
+                            <constraint firstItem="YEf-XE-a8E" firstAttribute="top" secondItem="asf-92-bbZ" secondAttribute="bottom" constant="31" id="jaI-K5-OQ8"/>
+                            <constraint firstItem="Dd7-dF-pDB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kDf-tw-INX"/>
+                            <constraint firstItem="Dd7-dF-pDB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="llm-gS-qdj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="asf-92-bbZ" secondAttribute="trailing" constant="-20" id="llx-Zp-HGC"/>
+                            <constraint firstItem="QWL-ct-Thj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sYr-Ac-ElM"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="lblThreeDay" destination="Dd7-dF-pDB" id="xZo-UF-x68"/>
+                        <outlet property="txtCity" destination="QWL-ct-Thj" id="u1l-q9-s1v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="361"/>
+        </scene>
+    </scenes>
+</document>
